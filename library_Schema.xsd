@@ -1,0 +1,31 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Library">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Book">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="ID"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:int" name="Code"/>
+              <xs:element type="xs:string" name="Author"/>
+              <xs:element type="xs:short" name="Price"/>
+              <xs:element type="xs:string" name="Publication"/>
+              <xs:element type="xs:string" name="Type"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CD_Disk">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Type"/>
+              <xs:element type="xs:string" name="Size"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:byte" name="Version"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

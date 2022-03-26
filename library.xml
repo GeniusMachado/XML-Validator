@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Library SYSTEM "library_DTD.dtd">
+<Library>
+  <Book>
+      <ID>123</ID>
+      <Name>Real Estate Made Easy</Name>
+      <Code>1234567890</Code>
+      <Author>Grant Cardone</Author>
+      <Price>334</Price>
+      <Publication>Visual Media</Publication>
+      <Type>Novel</Type>
+  </Book>
+  <CD_Disk>
+        <Type>DVD</Type>
+        <Size>700MB</Size>
+        <Name>Lion Heart</Name>
+        <Version>2</Version>
+  </CD_Disk>
+</Library>

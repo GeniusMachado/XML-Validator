@@ -1,0 +1,12 @@
+<!ELEMENT Library (Book|CD_Disk)*>
+<!ELEMENT Book (ID|Name|Code|Author|Price|Publication|Type)*>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Code (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Publication (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT CD_Disk (Type|Size|Name|Version)*>
+<!ELEMENT Size (#PCDATA)>
+<!ELEMENT Version (#PCDATA)>
